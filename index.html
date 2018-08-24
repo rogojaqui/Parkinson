@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <script>
 function vermas (parrafo, boton){
-	if(document,getElementById(parrafo).style.display=='block')(
-		document,getElementById(parrafo).style.display='none')(
-		document,getElementById(parrafo).innerHTML='Ocultar'
+	if(document.getElementById(parrafo).style.display=='block'){
+		document.getElementById(parrafo).style.display='none';
+		document.getElementById(boton).innerHTML='Ver más';
 		}else{
-		document,getElementById(parrafo).style.display='block')(
-		document,getElementById(parrafo).innerHTML='Ver más'
-		
+		document.getElementById(parrafo).style.display='block';
+		document.getElementById(boton).innerHTML='Ocultar';
+		}
 }
 	</script>
 <html xmlns="http://www.w3.org/1999/xhtml">
